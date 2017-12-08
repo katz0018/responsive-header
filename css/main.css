@@ -85,6 +85,16 @@ nav a:hover {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  nav li {
+    display: inline-block;
+    width: 20%;
+  }
+
+  h1 {
+    display: inline-block;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 90em) {
