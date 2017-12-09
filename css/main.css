@@ -88,18 +88,25 @@ nav a:hover {
 
   nav li {
     display: inline-block;
-    width: 20%;
+    width: auto;
+    padding: .5em .75em;
   }
 
   h1 {
     display: inline-block;
     text-align: left;
+    width: 30%;
+  }
+
+  nav {
+    display: block;
+    float: right;
   }
 }
 
 @media only screen and (min-width: 90em) {
   html {
-    font-size: 120%;
+    font-size: 130%;
     line-height: 1.5;
   }
 }
