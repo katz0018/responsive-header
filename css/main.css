@@ -25,12 +25,15 @@ body {
 header {
   background-color: #18294f;
   color: #fff;
+  padding-left: .75rem;
+  padding-top: .75rem;
 }
 
 header h1 {
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
+  margin: 0;
 }
 
 nav ul {
@@ -99,11 +102,13 @@ nav a:hover {
     display: inline-block;
     text-align: left;
     width: 30%;
+    padding: 5px;
   }
 
   nav {
     display: block;
     float: right;
+    margin: .9rem;
   }
 }
 
@@ -111,5 +116,12 @@ nav a:hover {
 
   html {
     font-size: 130%;
+    padding: 0;
+  }
+
+  h1 {
+    display: inline-block;
+    text-align: left;
+    width: 25%;
   }
 }
