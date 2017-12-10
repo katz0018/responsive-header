@@ -23,10 +23,11 @@ body {
 }
 
 header {
-  background-color: #18294f;
   color: #fff;
   padding-left: .75rem;
   padding-top: .75rem;
+  background-color: #18294f;
+  overflow: hidden;
 }
 
 header h1 {
@@ -67,8 +68,8 @@ nav a:hover {
 
   nav li {
     display: inline-block;
-    width: 49%;
-    text-align: center;
+    width: 50%;
+    float: left;
   }
 }
 
